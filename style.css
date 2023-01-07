@@ -3,9 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
 img {
   max-width: 100%;
 }
+
 /* header */
 header {
   background-image: url('images/banner/banner3.png');
@@ -16,9 +18,11 @@ header {
   justify-content: end;
   align-items: center;
 }
+
 .banner {
   padding: 0 230px 0 0;
 }
+
 .banner-title {
   font-size: 65px;
   text-align: right;
@@ -26,15 +30,18 @@ header {
   width: 525px;
   margin-bottom: 24px;
 }
+
 .banner-desc {
   width: 525px;
   text-align: right;
   color: #ffffff;
 }
+
 .btn {
   display: flex;
   justify-content: end;
 }
+
 .btn-primary {
   width: 160px;
   height: 64px;
@@ -47,6 +54,7 @@ header {
   border: none;
   cursor: pointer;
 }
+
 /* my-previous-year-failures */
 .my-previous-year {
   display: flex;
@@ -64,18 +72,22 @@ header {
   color: #151414;
   margin-bottom: 24px;
 }
+
 .previous-year-desc {
   color: #444343;
   margin-bottom: 16px;
 }
+
 .previous-year-q {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .fa-check {
   color: green;
 }
+
 /* my-plans style */
 .plan {
   text-align: center;
@@ -84,6 +96,7 @@ header {
   font-size: 40px;
   color: #151414;
 }
+
 .my-plans {
   display: flex;
   width: 1200px;
@@ -91,39 +104,47 @@ header {
   justify-content: space-between;
   margin-bottom: 130px;
 }
+
 .plan-content {
   text-align: center;
 }
+
 .plan-title {
   margin: 16px 16px;
   font-weight: 700;
   font-size: 30px;
   color: #151414;
 }
+
 .plan-desc {
   font-weight: 500;
   font-size: 25px;
   color: #737272;
 }
+
 /* mindset */
 .mindset-goal {
   display: flex;
   justify-content: center;
   margin-bottom: 150px;
 }
+
 .mindset {
   background-image: url('images/gradient1.png');
   background-repeat: no-repeat;
   position: relative;
 }
+
 .mindset img {
   opacity: 0.5;
 }
+
 .mindset-content {
   position: absolute;
   top: 59px;
   left: 64px;
 }
+
 .mindset-content h4 {
   width: 459px;
   font-weight: 700;
@@ -132,6 +153,7 @@ header {
   color: #ffffff;
   margin-bottom: 16px;
 }
+
 .mindset-content button {
   padding: 12px 24px;
   font-weight: 600;
@@ -142,6 +164,7 @@ header {
   border: none;
   cursor: pointer;
 }
+
 /* footer work */
 footer {
   display: flex;
@@ -150,23 +173,27 @@ footer {
   background: #151414;
   padding: 130px 230px;
 }
+
 .footer-title {
   font-weight: 700;
   font-size: 45px;
   color: #f8f8f8;
   margin-bottom: 16px;
 }
+
 .footer-desc {
   margin-bottom: 24px;
   width: 485px;
   color: #ffffff;
 }
+
 .footer-sub h4 {
   margin-bottom: 31px;
   font-weight: 600;
   font-size: 25px;
   color: #ffffff;
 }
+
 form input {
   width: 325px;
   padding: 12px 10px;
@@ -177,9 +204,11 @@ form input {
   outline: none;
   margin-bottom: 16px;
 }
+
 form input::placeholder {
   color: #f3f3f3;
 }
+
 form button {
   padding: 12px 24px;
   color: #ffffff;
