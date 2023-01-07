@@ -142,3 +142,48 @@ header {
   border: none;
   cursor: pointer;
 }
+/* footer work */
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background: #151414;
+  padding: 130px 230px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.footer-desc {
+  margin-bottom: 24px;
+  width: 485px;
+  color: #ffffff;
+}
+.footer-sub h4 {
+  margin-bottom: 31px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+}
+form input {
+  width: 325px;
+  padding: 12px 10px;
+  border-radius: 10px;
+  background-color: #151414;
+  color: #f8f8f8;
+  border: 1px solid #f3f3f3;
+  outline: none;
+  margin-bottom: 16px;
+}
+form input::placeholder {
+  color: #f3f3f3;
+}
+form button {
+  padding: 12px 24px;
+  color: #ffffff;
+  border-radius: 6px;
+  background-color: #005fac;
+  cursor: pointer;
+}
