@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+}
+/* header */
+header {
+  background-image: url('/images/banner/banner3.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.banner {
+  padding: 0 230px 0 0;
+}
+.banner-title {
+  font-size: 65px;
+  text-align: right;
+  color: #ffffff;
+  width: 525px;
+  margin-bottom: 24px;
+}
+.banner-desc {
+  width: 525px;
+  text-align: right;
+  color: #ffffff;
+}
+.btn {
+  display: flex;
+  justify-content: end;
+}
+.btn-primary {
+  width: 160px;
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #005fac;
+  margin-top: 24px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
