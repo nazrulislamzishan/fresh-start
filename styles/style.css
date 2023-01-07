@@ -47,3 +47,98 @@ header {
   border: none;
   cursor: pointer;
 }
+/* my-previous-year-failures */
+.my-previous-year {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 130px auto;
+  gap: 87px;
+  width: 1072px;
+}
+
+.previous-year-title {
+  height: 94px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.previous-year-desc {
+  color: #444343;
+  margin-bottom: 16px;
+}
+.previous-year-q {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fa-check {
+  color: green;
+}
+/* my-plans style */
+.plan {
+  text-align: center;
+  margin-bottom: 47px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.my-plans {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+.plan-content {
+  text-align: center;
+}
+.plan-title {
+  margin: 16px 16px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+}
+.plan-desc {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+/* mindset */
+.mindset-goal {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.mindset {
+  background-image: url('/images/gradient1.png');
+  background-repeat: no-repeat;
+  position: relative;
+}
+.mindset img {
+  opacity: 0.5;
+}
+.mindset-content {
+  position: absolute;
+  top: 59px;
+  left: 64px;
+}
+.mindset-content h4 {
+  width: 459px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.mindset-content button {
+  padding: 12px 24px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #005fac;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
